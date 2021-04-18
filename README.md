@@ -16,3 +16,6 @@ Naos uses a sophisticated recommendation algorithm in order to quickly direct us
 ## Using Naos
 
 You can access the website [here](http://54.174.233.149)!
+
+Don't forget to add securedata.json in the cloned repo containing mongo db url and admin data to run backend!
+---
