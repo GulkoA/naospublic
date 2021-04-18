@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+
+/* Style the navigation bar */
+#navbar {
+    background-color: rgba(0,0,0,0); /* White background color */
+    position: fixed; /* Navbar doesn't move */
+    top: 0; /* Positions navbar on top of the page */
+    width: 100vw; /* Navbar spans the full width of the page */
+    transition: top 0.3s; /* Transition sliding effect when scrolling down/up */
+    z-index: 100;
+}
+/* Styles the navigation bar links */
+#navbar a {
+    color: #093449;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* Styles navigation bar links when mouse is hovered over them */
+#navbar a:hover {
+    color: #ddd; 
+    background-color: #ddd;
+}
+/* Positions most links on the right */
+.right-links {
+    float: right;
+    padding: 25px;
+}
+/* Positions my name on the left */
+.left-links {
+    float: left;
+    text-align: center center;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero {
+    background: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
+    height: 100vh;
+    width: 100vw;
+    margin: none;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: sticky;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #093449;
+    z-index: 0;
+}
+
+/* Margins for the about container */
+.about__container {
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+    
+}
+.about__content {
+    float: left;
+}
+
+
+#wrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+ 
+a {
+    text-align: center;
+}
+
+.test__container {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.test__content {
+    float: left;
+}

@@ -1,0 +1,75 @@
+html{
+    background-color: white;
+}
+
+body { 
+    margin-top: 100px; 
+}
+
+#navbar {
+    background-color: #093449; /* dark blue background color */
+    position: fixed; /* Navbar doesn't move */
+    top: 0; /* Positions navbar on top of the page */
+    width: 100vw; /* Navbar spans the full width of the page */
+    transition: top 0.3s; /* Transition sliding effect when scrolling down/up */
+    z-index: 100;
+}
+
+/* Styles the navigation bar links */
+#navbar a {
+    color: #889ca7;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* Styles navigation bar links when mouse is hovered over them */
+#navbar a:hover {
+    color: #ddd; 
+}
+
+/* Positions most links on the right */
+.right-links {
+    float: right;
+    padding: 25px;
+}
+/* Positions my name on the left */
+.left-links {
+    float: left;
+    text-align: center center;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    margin: auto;
+    top: 35%;
+    position: absolute;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+}
+
+#row{
+    margin-left: 48%;
+}
+
+#cancelButton{
+    margin-left: 52%;
+    width: 150px;
+}
+
+.container{
+    padding-top: 25%;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Crimson Text', serif;
+}
