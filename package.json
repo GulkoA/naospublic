@@ -1,0 +1,26 @@
+{
+  "name": "naos",
+  "version": "1.0.0",
+  "description": "tinder for searching teammates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AqlexDev/yogabbagabba.git"
+  },
+  "author": "Yo Gabba Gabba team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AqlexDev/yogabbagabba/issues"
+  },
+  "homepage": "https://github.com/AqlexDev/yogabbagabba#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7",
+    "nodemonitor": "^0.0.1"
+  }
+}
