@@ -11,3 +11,5 @@
 * CSS
 * Express.js
 * Node.js
+---
+*Don't forget to add securedata.json in the cloned repo containing mongo db url and admin data to run backend!*
